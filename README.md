@@ -21,7 +21,7 @@ Begining to Master in all the concepts of REACT!
 
 ## Component Based Architecture
 * React is component based architecture.
-* This lets you breakdown the application  into small encapsulated parts which can be composed to make more complex UI.\
+* This lets you breakdown the application  into small encapsulated parts which can be composed to make more complex UI.
 
 ## React is declarative 
 * Tell React what you want and React will build the actual UI.
