@@ -36,9 +36,9 @@ Begining to Master in all the concepts of REACT!
 ## Prerequisites
 * HTML, CSS, JavaScript fundamentals are absolutely necessary.
 * Basic knowledge of ES6
- *The concepts you should be aware of
-  * JavaScript - 'this' keyword, filter, map and reduce methods.
-  * ES6 - let, const, arrow functions, template literals, default parameters, object literals, rest and spread operators, destructuring assignment.
+  * The below concepts you should be aware of
+   * JavaScript - 'this' keyword, filter, map and reduce methods.
+   * ES6 - let, const, arrow functions, template literals, default parameters, object literals, rest and spread operators, destructuring assignment.
 
 ## How to Create React App ?
 * `create-react-app` is command line interface tool that allows you to quickly create and run react app with no configuration
