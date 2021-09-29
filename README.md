@@ -59,3 +59,20 @@ Begining to Master in all the concepts of REACT!
 * In React, Component is part of UI.
 * A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components.
 * Components are also re-usable, the same component can be used with different properties to display different information.
+
+## Types of React Component 
+* Functional Component
+  * Simple JavaScript function
+    ```
+    function welcome(props) {
+       return <h1>Hello {props.name}</h1>;
+    }
+    ```
+* Class Component
+    ```
+    class Welcome extends React.Component {
+       render() {
+         return <h1>Hello {this.props.name}</h1>;
+       }
+    }
+    ```
