@@ -41,10 +41,18 @@ Begining to Master in all the concepts of REACT!
   * ES6 - let, const, arrow functions, template literals, default parameters, object literals, rest and spread operators, destructuring assignment.
 
 ## How to Create React App ?
-* create-react-app is command line interface tool that allows you to quickly create and run react app with no configuration
-  * create-react-app <app-name>
+* `create-react-app` is command line interface tool that allows you to quickly create and run react app with no configuration
+  * `npx create-react-app <app-name>`
 * Here I have created hello-world branch to understand how React app structure looks like.
+* Other way to create React App
+  * `npm install create-react-app -g` and this command will install the create-react-app globally then you can simply use `create-react-app <app-name>`. 
+  
+ 
+## What is npx ?
+* npx is npm package runner which gets installed when you install node that is how we are able to run directly without having to install it.
 
 ## How to Run React App ?
 * Go to project main folder and run npm start cli command will start the react app.
 * By default browser will open with http://localhost:3000 and app will be shown on the browser.
+
+ 
