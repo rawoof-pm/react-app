@@ -55,4 +55,7 @@ Begining to Master in all the concepts of REACT!
 * Go to project main folder and run npm start cli command will start the react app.
 * By default browser will open with http://localhost:3000 and app will be shown on the browser.
 
- 
+## What is React Component ?
+* In React, Component is part of UI.
+* A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components.
+* Components are also re-usable, the same component can be used with different properties to display different information.
