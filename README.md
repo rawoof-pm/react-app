@@ -62,13 +62,15 @@ Begining to Master in all the concepts of REACT!
 
 ## Types of React Component 
 * Functional Component
-  * Simple JavaScript function
+  * Simple JavaScript function, which optionally receives props as input and return HTML(JSX)
     ```
     function welcome(props) {
        return <h1>Hello {props.name}</h1>;
     }
     ```
 * Class Component
+  * It is ES6 classes, which optionally receives props as input and return HTML(JSX)
+  * Class component is also maintain a private internal state. 
     ```
     class Welcome extends React.Component {
        render() {
