@@ -69,6 +69,7 @@ Begining to Master in all the concepts of REACT!
     }
     ```
 * Class Component
+  * ES6 classes
     ```
     class Welcome extends React.Component {
        render() {
