@@ -77,3 +77,10 @@ Begining to Master in all the concepts of REACT!
        }
     }
     ```
+## What is JSX ? 
+ * JSX stand JavaScritp XML - Extension to the Javascript language syntax.
+ * Write XML-like code for elements and components.
+ * JSX tags have a tag name, attributes and children.
+ * JSX is not a necessity to write React applications.
+ * JSX makes your react code simpler and elegant.
+ * JSX ultimately transpiles to pure JavaScript which is understood by the browsers.
