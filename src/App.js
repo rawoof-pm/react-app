@@ -5,6 +5,8 @@ import FunctionalWithArrowFnComponent from './Component/FunctionalWithArrowFnCom
 import ClassComponent from './Component/ClassComponent';
 import WithJSXComponent from './Component/WithJsxComponent';
 import WithoutJSXComponent from './Component/WithoutJsxComponent';
+import PropWithFnComponent from './Component/PropWithFnComponent';
+import PropWithClassComponent from './Component/PropWithClassComponent';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
       <ClassComponent />
       <WithJSXComponent/>
       <WithoutJSXComponent/>
+      <PropWithFnComponent name='Ti Hoe' />
+      <PropWithFnComponent name='Rawoof' />
+      <PropWithClassComponent name='William' />
+      <PropWithClassComponent name='Jack' />
     </div>
   );
 }
