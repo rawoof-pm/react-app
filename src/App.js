@@ -3,6 +3,8 @@ import './App.css';
 import FunctionalComponent from './Component/FunctionalComponent';
 import FunctionalWithArrowFnComponent from './Component/FunctionalWithArrowFnComponent';
 import ClassComponent from './Component/ClassComponent';
+import WithJSXComponent from './Component/WithJsxComponent';
+import WithoutJSXComponent from './Component/WithoutJsxComponent';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <FunctionalComponent />
       <FunctionalWithArrowFnComponent />
       <ClassComponent />
+      <WithJSXComponent/>
+      <WithoutJSXComponent/>
     </div>
   );
 }
