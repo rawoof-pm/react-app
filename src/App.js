@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import FunctionalComponent from './Component/FunctionalComponent';
 import FunctionalWithArrowFnComponent from './Component/FunctionalWithArrowFnComponent';
@@ -7,6 +6,8 @@ import WithJSXComponent from './Component/WithJsxComponent';
 import WithoutJSXComponent from './Component/WithoutJsxComponent';
 import PropWithFnComponent from './Component/PropWithFnComponent';
 import PropWithClassComponent from './Component/PropWithClassComponent';
+import StateClassComponent from './Component/StateClassComponent';
+import StateFnComponent from './Component/StateFnComponent';
 
 function App() {
   return (
@@ -14,12 +15,14 @@ function App() {
       <FunctionalComponent />
       <FunctionalWithArrowFnComponent />
       <ClassComponent />
-      <WithJSXComponent/>
-      <WithoutJSXComponent/>
+      <WithJSXComponent />
+      <WithoutJSXComponent />
       <PropWithFnComponent name='Ti Hoe' />
       <PropWithFnComponent name='Rawoof' />
       <PropWithClassComponent name='William' />
       <PropWithClassComponent name='Jack' />
+      <StateClassComponent />
+      <StateFnComponent />
     </div>
   );
 }
