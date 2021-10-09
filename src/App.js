@@ -8,6 +8,10 @@ import PropWithFnComponent from './Component/PropWithFnComponent';
 import PropWithClassComponent from './Component/PropWithClassComponent';
 import StateClassComponent from './Component/StateClassComponent';
 import StateFnComponent from './Component/StateFnComponent';
+import DestrcPropWithFnComponent from './Component/DestrcPropWithFnComponent';
+import DestrcPropWithClassComponent from './Component/DestrcPropWithClassComponent';
+import DestrcStateWithClassComponent from './Component/DestrcStateWithClassComponent';
+import DestruWithFnComponent from './Component/DestruStateWithFnComponent';
 
 function App() {
   return (
@@ -23,6 +27,13 @@ function App() {
       <PropWithClassComponent name='Jack' />
       <StateClassComponent />
       <StateFnComponent />
+
+      <DestrcPropWithFnComponent name='William' />
+      <DestrcPropWithClassComponent name='Ti Hoe' />
+
+      <DestrcStateWithClassComponent />
+      <DestruWithFnComponent />
+
     </div>
   );
 }
