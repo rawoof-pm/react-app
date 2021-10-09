@@ -5,7 +5,7 @@ class DestrcPropWithClassComponent extends Component {
         const { name } = this.props;
         return (
             <div>
-                <h1>Hello {name}</h1>
+                <span>Props destructured in Class Component - Hello {name}</span>
             </div>
         )
     }

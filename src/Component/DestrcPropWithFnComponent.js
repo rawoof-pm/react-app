@@ -4,7 +4,7 @@ function DestrcPropWithFnComponent(props) {
     const { name } = props;
     return (
         <div>
-            <h1>Hello {name}</h1>
+            <span>Props destructured in Function Component - Hello {name}</span>
         </div>
     );
 }
