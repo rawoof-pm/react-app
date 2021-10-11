@@ -14,6 +14,10 @@ import DestrcStateWithClassComponent from './Component/DestrcStateWithClassCompo
 import DestruWithFnComponent from './Component/DestruStateWithFnComponent';
 import EventClassComponent from './Component/EventClassComponent';
 import EventFnComponent from './Component/EventFnComponent';
+import BindEventFirstApproachClassComponent from './Component/BindEventFirstApproachClassComponent';
+import BindEventSecondApproachClassComponent from './Component/BindEventSecondApproachClassComponent';
+import BindEventThirdApproachClassComponent from './Component/BindEventThirdApproachClassComponent';
+import BindEventFourthApproachClassComponent from './Component/BindEventFourthApproachClassComponent';
 
 function App() {
   return (
@@ -38,6 +42,12 @@ function App() {
 
       <EventClassComponent />
       <EventFnComponent />
+
+      <BindEventFirstApproachClassComponent />
+      <BindEventSecondApproachClassComponent />
+      <BindEventThirdApproachClassComponent />
+      <BindEventFourthApproachClassComponent />
+
     </div>
   );
 }
