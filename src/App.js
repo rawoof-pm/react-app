@@ -12,6 +12,8 @@ import DestrcPropWithFnComponent from './Component/DestrcPropWithFnComponent';
 import DestrcPropWithClassComponent from './Component/DestrcPropWithClassComponent';
 import DestrcStateWithClassComponent from './Component/DestrcStateWithClassComponent';
 import DestruWithFnComponent from './Component/DestruStateWithFnComponent';
+import EventClassComponent from './Component/EventClassComponent';
+import EventFnComponent from './Component/EventFnComponent';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
       <DestrcStateWithClassComponent />
       <DestruWithFnComponent />
 
+      <EventClassComponent />
+      <EventFnComponent />
     </div>
   );
 }
