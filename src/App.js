@@ -18,6 +18,7 @@ import BindEventFirstApproachClassComponent from './Component/BindEventFirstAppr
 import BindEventSecondApproachClassComponent from './Component/BindEventSecondApproachClassComponent';
 import BindEventThirdApproachClassComponent from './Component/BindEventThirdApproachClassComponent';
 import BindEventFourthApproachClassComponent from './Component/BindEventFourthApproachClassComponent';
+import ParentClassComponent from './Component/method-as-props/ParentClassComponent';
 
 function App() {
   return (
@@ -47,6 +48,8 @@ function App() {
       <BindEventSecondApproachClassComponent />
       <BindEventThirdApproachClassComponent />
       <BindEventFourthApproachClassComponent />
+
+      <ParentClassComponent />
 
     </div>
   );
