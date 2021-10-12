@@ -20,6 +20,7 @@ import BindEventThirdApproachClassComponent from './Component/BindEventThirdAppr
 import BindEventFourthApproachClassComponent from './Component/BindEventFourthApproachClassComponent';
 import ParentClassComponent from './Component/method-as-props/ParentClassComponent';
 import UserGreeting from './Component/conditional-rendering/UserGreeting';
+import NameClassList from './Component/list-rendering/NameClassList';
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
       <ParentClassComponent />
 
       <UserGreeting />
+
+      <NameClassList />
 
     </div>
   );
