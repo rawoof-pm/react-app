@@ -22,6 +22,9 @@ import ParentClassComponent from './Component/method-as-props/ParentClassCompone
 import UserGreeting from './Component/conditional-rendering/UserGreeting';
 import NameClassList from './Component/list-rendering/NameClassList';
 import NameFnList from './Component/list-rendering/NameFnList';
+import ExternalStyleComponent from './Component/styling/ExternalStyleComponent';
+import InlineStyleComponent from './Component/styling/InlineStyleComponent';
+import ModuleStyleComponent from './Component/styling/ModuleStyleComponent';
 
 function App() {
   return (
@@ -58,6 +61,10 @@ function App() {
 
       <NameClassList />
       <NameFnList />
+
+      <ExternalStyleComponent />
+      <InlineStyleComponent />
+      <ModuleStyleComponent />
 
     </div>
   );
