@@ -15,7 +15,7 @@ class UserGreeting extends Component {
         this.setState(function (prevState) {
             return {
                 isLoggedIn: !prevState.isLoggedIn ? true : false,
-                buttonText: prevState.buttonText == 'Login' ? 'Logout' : 'Login'
+                buttonText: prevState.buttonText === 'Login' ? 'Logout' : 'Login'
             }
         })
     }
