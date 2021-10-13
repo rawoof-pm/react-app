@@ -106,3 +106,13 @@ Begining to Master in all the concepts of REACT!
 - CamelCase propery naming convention
   - onclick -> onClick
   - tabindex -> tabIndex
+
+## Lifecycle Methods with Class component
+  - Mounting (componentDidMount)
+    - When an instance of a component is being created and inserted into the DOM
+  - Updating (shouldComponentUpdate)
+    - When a component is being re-rendered as a result of chanes to either its props or state
+  - Unmounting (componentWillUnmount)
+    - When a component is being removed from the DOM
+  - Error Handling (componentDidCatch)
+    - When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
