@@ -25,6 +25,8 @@ import NameFnList from './Component/list-rendering/NameFnList';
 import ExternalStyleComponent from './Component/styling/ExternalStyleComponent';
 import InlineStyleComponent from './Component/styling/InlineStyleComponent';
 import ModuleStyleComponent from './Component/styling/ModuleStyleComponent';
+import FormHandlingClassComponent from './Component/form-handling/FormHandlingClassComponent';
+import FormHandlingFnComponent from './Component/form-handling/FormHandlingFnComponent';
 
 function App() {
   return (
@@ -65,6 +67,9 @@ function App() {
       <ExternalStyleComponent />
       <InlineStyleComponent />
       <ModuleStyleComponent />
+
+      <FormHandlingClassComponent />
+      <FormHandlingFnComponent />
 
     </div>
   );
